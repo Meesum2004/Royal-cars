@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Animation AOS Link -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Style Sheet CSS Link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+        
+        <div class="container-fluid text-white">
+            <footer class="d-flex flex-wrap  py-3 my-4 border-top bg-black">
+                <p class=" text-white ms-3"><i class="fa-solid fa-phone"></i> +012 345 6789</p>
+                <p class="text-white ms-5"><i class="fa-solid fa-envelope"></i> infoexample@.com</p>
+    
+              <div class="me-5 ms-auto social-links">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-youtube"></i></a>
+              </div>
+    
+                
+            </footer>
+        </div>
+    <!-- nav bar no.1  -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container NAVBAR">
+            <a class="navbar-brand navbrand" href="#">ROYAL CARS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto ">
+                    <li class="nav-item ">
+                        <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  active text-white" href="#">Service</a>
+                    </li>
+                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  active text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            CARS
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  active text-white" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            PAGES
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link  active text-white" href="#">CONTACT</a>
+                    </li>
+                   
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+
+   <div class="nav-inputs">
+    <div class="container-fluid">
+        <div class="row mt-4">
+            <div class="col-md-2">
+                <input type="text" placeholder="Pickup Location" class="ps-2" >
+            </div>
+            <div class="col-md-2">
+                <input type="text" placeholder="Drop Location" class="ps-2" >
+            </div>
+            <div class="col-md-2">
+                <input type="text" placeholder="Pickup Date" class="ps-2" >
+            </div>
+            <div class="col-md-2">
+                <input type="text" placeholder="Pickup Time" class="ps-2" >
+            </div>
+            <div class="col-md-2">
+                <input type="text" placeholder="Select A Car" class="ps-2" >
+            </div>
+            <div class="col-md-2">
+                <button type="button" class="btn btn-warning text-white btn-sm w-50 h-70">Serach</button>
+            </div>
+        </div>
+    </div>
+   </div>
+
+ <!-- slider  -->
+ <div id="carouselExampleCaptions" class="carousel slide mt-3 h-70">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active  ">
+        <img src="https://demo.htmlcodex.com/1585/car-rental-html-template/img/carousel-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block  ">
+          <h5 class="slider-heading">RENT A CAR</h5>
+          <p>Quality Cars with <br> Unlimited Miles</p>
+          <button class="btn btn-main bg-warning w-70 h-70">Reserve Now</button>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://demo.htmlcodex.com/1585/car-rental-html-template/img/carousel-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://demo.htmlcodex.com/1585/car-rental-html-template/img/carousel-2.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- section 1 -->
+  <div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="content-1 text-center mt-5">
+                <h1 class="orange-text">01</h1>
+                <h1 class="coor">WELCOME TO <span class="orange-text">ROYAL CARS</span></h1>
+                <div>
+                    <img src="https://demo.htmlcodex.com/1585/car-rental-html-template/img/about.png" alt="">
+                </div>
+                <p>Justo et eos et ut takimata sed sadipscing dolore lorem, et elitr labore labore voluptua no rebum sed, stet voluptua amet sed elitr ea dolor dolores no clita. Dolores diam magna clita ea eos amet, amet rebum voluptua vero vero sed clita accusam takimata. Nonumy labore ipsum sea voluptua sea eos sit justo, no ipsum sanctus sanctus no et no ipsum amet, tempor labore est labore no. Eos diam eirmod lorem ut eirmod, ipsum diam sadipscing stet dolores elitr elitr eirmod dolore. Magna elitr accusam takimata labore, et at erat eirmod consetetur tempor eirmod invidunt est, ipsum nonumy at et.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="cart-1">
+                <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                    <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                </div>
+                <div class="content-icon ">
+                    <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cart-1">
+                <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                    <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                </div>
+                <div class="content-icon ">
+                    <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+    
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="cart-1">
+                <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                    <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                </div>
+                <div class="content-icon ">
+                    <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <!-- section 2 -->
+  <div class="container">
+
+    <div class="row">
+        <div class="col-12">
+            <div class="content-1 text-center mt-5">
+                <h1 class="orange-text">01</h1>
+                <h1 class="coor">Our Services</h1>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="cart-1">
+                            <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                                <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                            </div>
+                            <div class="content-icon ">
+                                <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cart-1">
+                            <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                                <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                            </div>
+                            <div class="content-icon ">
+                                <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cart-1">
+                            <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                                <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                            </div>
+                            <div class="content-icon ">
+                                <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="cart-1">
+                            <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                                <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                            </div>
+                            <div class="content-icon ">
+                                <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cart-1">
+                            <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                                <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                            </div>
+                            <div class="content-icon ">
+                                <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="cart-1">
+                            <div class="icon-head bg-warning text-white ps-3 w-25 mt-2">
+                                <i class="fa-sharp fa-solid fa-headphones h-70  "></i>
+                            </div>
+                            <div class="content-icon ">
+                                <p class="d-flex justify-content-end align-items-top mt-0 ">24/7 CAR RENTAL <br> SUPPORT</p>
+                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+    </div>
+  </div>
+
+     <!-- section 3 -->
+      <div class="bg-dark text-secondary px-4 py-5 text-center">
+        <div class="py-5 back-img" >
+            <h1 class="display-5 fw-bold text-white">50% OFF</h1>
+            <h1 class="display-5 fw-bold text-white">SPECIAL OFFER FOR NEW MEMBERS</h1>
+            <div class="col-lg-6 mx-auto">
+                <p class="fs-5 mb-4">Only for Sunday from 1st Jan to 30th Jan 2045</p>
+                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                    <button type="button" class="btn btn-outline-info btn-lg px-4 me-sm-3 fw-bold"
+                        fdprocessedid="8pn9ud">Register Now</button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+        <h1 class="display-1 text-warning text-center orange-text">06</h1>
+        <h1 class="display-4 text-uppercase text-center mb-5">Contact Us</h1>
+        <div class="row">
+        <div class="col-lg-7 mb-2">
+        <div class="contact-form bg-light mb-4" style="padding: 30px;">
+        <form>
+        <div class="row">
+        <div class="col-6 form-group">
+        <input type="text" class="form-control p-4" placeholder="Your Name" required="required">
+        </div>
+        <div class="col-6 form-group">
+        <input type="email" class="form-control p-4" placeholder="Your Email" required="required">
+        </div>
+        </div>
+        <div class="form-group">
+        <input type="text" class="form-control p-4" placeholder="Subject" required="required">
+        </div>
+        <div class="form-group">
+        <textarea class="form-control py-3 px-4" rows="5" placeholder="Message" required="required"></textarea>
+        </div>
+        <div>
+        <button class="btn btn-primary py-3 px-5" type="submit">Send Message</button>
+        </div>
+        </form>
+        </div>
+        </div>
+        <div class="col-lg-5 mb-2">
+        <div class="bg-secondary d-flex flex-column justify-content-center px-5 mb-4" style="height: 435px;">
+        <div class="d-flex mb-3">
+        <i class="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3"></i>
+        <div class="mt-n1">
+        <h5 class="text-light">Head Office</h5>
+        <p>123 Street, New York, USA</p>
+        </div>
+        </div>
+        <div class="d-flex mb-3">
+        <i class="fa fa-2x fa-map-marker-alt text-primary flex-shrink-0 mr-3"></i>
+        <div class="mt-n1">
+        <h5 class="text-light">Branch Office</h5>
+        <p>123 Street, New York, USA</p>
+        </div>
+        </div>
+        <div class="d-flex mb-3">
+        <i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
+        <div class="mt-n1">
+        <h5 class="text-light">Customer Service</h5>
+        <p>customer@example.com</p>
+        </div>
+        </div>
+        <div class="d-flex">
+        <i class="fa fa-2x fa-envelope-open text-primary flex-shrink-0 mr-3"></i>
+        <div class="mt-n1">
+        <h5 class="text-light">Return &amp; Refund</h5>
+        <p class="m-0">refund@example.com</p>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+
+
+    <div class="container-fluid bg-secondary py-5 px-sm-3 px-md-5" style="margin-top: 90px;">
+        <div class="row pt-5">
+        <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="text-uppercase text-light mb-4">Get In Touch</h4>
+        <p class="mb-2"><i class="fa fa-map-marker-alt text-white mr-3"></i>123 Street, New York, USA</p>
+        <p class="mb-2"><i class="fa fa-phone-alt text-white mr-3"></i>+012 345 67890</p>
+        <p><i class="fa fa-envelope text-white mr-3"></i>info@example.com</p>
+        <h6 class="text-uppercase text-white py-2">Follow Us</h6>
+        <div class="d-flex justify-content-start">
+        <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-lg btn-dark btn-lg-square mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-lg btn-dark btn-lg-square" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="text-uppercase text-light mb-4">Usefull Links</h4>
+        <div class="d-flex flex-column justify-content-start">
+        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Private Policy</a>
+        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Term &amp; Conditions</a>
+        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>New Member Registration</a>
+        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Affiliate Programme</a>
+        <a class="text-body mb-2" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Return &amp; Refund</a>
+        <a class="text-body" href="#"><i class="fa fa-angle-right text-white mr-2"></i>Help &amp; FQAs</a>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="text-uppercase text-light mb-4">Car Gallery</h4>
+        <div class="row mx-n1">
+        <div class="col-4 px-1 mb-2">
+        <a href=""><img class="w-100" src="img/gallery-1.jpg" alt=""></a>
+        </div>
+        <div class="col-4 px-1 mb-2">
+        <a href=""><img class="w-100" src="img/gallery-2.jpg" alt=""></a>
+        </div>
+        <div class="col-4 px-1 mb-2">
+        <a href=""><img class="w-100" src="img/gallery-3.jpg" alt=""></a>
+        </div>
+        <div class="col-4 px-1 mb-2">
+        <a href=""><img class="w-100" src="img/gallery-4.jpg" alt=""></a>
+        </div>
+        <div class="col-4 px-1 mb-2">
+        <a href=""><img class="w-100" src="img/gallery-5.jpg" alt=""></a>
+        </div>
+        <div class="col-4 px-1 mb-2">
+        <a href=""><img class="w-100" src="img/gallery-6.jpg" alt=""></a>
+        </div>
+        </div>
+        </div>
+        <div class="col-lg-3 col-md-6 mb-5">
+        <h4 class="text-uppercase text-light mb-4">Newsletter</h4>
+        <p class="mb-4">Volup amet magna clita tempor. Tempor sea eos vero ipsum. Lorem lorem sit sed elitr sed kasd et</p>
+        <div class="w-100 mb-3">
+        <div class="input-group">
+        <input type="text" class="form-control bg-dark border-dark" style="padding: 25px;" placeholder="Your Email">
+        <div class="input-group-append">
+        <button class="btn btn-primary text-uppercase px-3">Sign Up</button>
+        </div>
+        </div>
+        </div>
+        <i>Lorem sit sed elitr sed kasd et</i>
+        </div>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
